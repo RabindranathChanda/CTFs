@@ -1,0 +1,13 @@
+# Nmap 7.93 scan initiated Tue Dec  6 04:21:03 2022 as: nmap -vv -sSV -oN nmap/initial 10.10.45.218
+Nmap scan report for 10.10.45.218
+Host is up, received echo-reply ttl 60 (0.18s latency).
+Scanned at 2022-12-06 04:21:04 EST for 4s
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 60 OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+5900/tcp open  vnc     syn-ack ttl 60 VNC (protocol 3.8)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec  6 04:21:08 2022 -- 1 IP address (1 host up) scanned in 4.64 seconds
