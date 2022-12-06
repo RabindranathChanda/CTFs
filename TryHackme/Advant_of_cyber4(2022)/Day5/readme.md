@@ -1,5 +1,5 @@
 -----------------------------
-	  TryHackMe!
+	TryHackMe!
 Advant of Cyber 4 2022
 export $IP=10.10.45.218
    Date - 5/12/2022
@@ -38,16 +38,14 @@ After Determining the password for vnc i installed a opensource and free applica
 ### syntax to install the app :--
 	`sudo apt install remmina -y`
 
-
-
 ----------------
 # PASSWORDS -->
 ----------------
 ## SSH:-->
-	sakura
+	s****a
 
 ## VNC:-->
-	1q2w3e4r
+	1******r
 
 ----------------------------
 # Questions & Answers -->
@@ -55,10 +53,10 @@ After Determining the password for vnc i installed a opensource and free applica
 
 ## 1. Use Hydra to find the VNC password of the target with IP address MACHINE_IP. What is the password? -->
 ----------------------------------------------------------------------------------------------------------------------
---> 1q2w3e4r
+--> 1******r
 
 -------------------
 ## 2. Flag -->
 -------------------
--->	THM{I_SEE_YOUR_SCREEN}
+-->	THM{I*************EN}
 
