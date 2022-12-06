@@ -13,9 +13,9 @@ SSH = Secure Shell
 RDP = Remote Desktop Protocol
 VNC = Virtual Network Computer
 
----------------------------------------------------
-# Scanning Phase (Result is in the directory) --> 
----------------------------------------------------
+-------------------------------------------------------
+# Scanning Phase (Result is in the nmap directory) --> 
+-------------------------------------------------------
 ## NMAP -->
 	nmap -vv -sSV 10.10.45.218 -oN nmap/initial
 
